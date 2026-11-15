@@ -68,6 +68,7 @@ Three additional variables were derived from the original blood pressure and pul
 - Shock Index
 
 The dataset was synthetically generated using AI and does not represent actual patient records.
+
 **Original Dataset:** [View and Download the Dataset (Excel)](Synthetic_Healthcare_Vitals_Outcomes_1000.xlsx)
 
 

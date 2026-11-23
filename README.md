@@ -102,7 +102,7 @@ The majority-class baseline achieved 48.3% accuracy.
 | Referred | 14.7% |
 | Died | 70.8% |
 
-The model struggled particularly to identify Referred patients.
+The model struggled particularly to identify Referred patients (14.7% recall). This may partly reflect the overlap between Referred and Died patients in several vital signs: their systolic and diastolic blood pressure differences were not statistically significant in post-hoc comparisons. Although respiratory rate differed significantly between the two groups, the difference was relatively small (1.65 breaths/min).
 
 ### Predictive Sufficiency
 

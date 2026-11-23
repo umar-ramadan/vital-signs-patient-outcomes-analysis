@@ -4,7 +4,7 @@
 
 ## 1. Project Overview
 
-This project investigates whether five routine vital signs can help explain and predict four patient outcomes: Improved, Unchanged, Referred and Died.
+This project investigates whether five routine vital signs (temperature, pulse rate, respiratory rate, systolic blood pressure and diastolic blood pressure) can help explain and predict four patient outcomes: Improved, Unchanged, Referred and Died.
 
 Using a dataset of 1,000 patient records, I examined three questions:
 

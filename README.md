@@ -23,7 +23,7 @@ After data cleaning, 878 records were included in the analysis.
 - [**View Full Project Report (PDF)**](Vital_Signs_Patient_Outcomes_Analysis_Report.pdf)
 - [**View Raw Dataset (Excel)**](Dirty_Vital_Signs_Analysis_Dataset.xlsx)
 - [**View Cleaned Dataset (Excel)**](Cleaned_Vital_Signs_Analysis_Dataset.xlsx)
-- **Analysis Notebook:** Jupyter Notebook (uploading soon).
+- [**View Analysis Notebook (.ipynb)**](https://github.com/umar-ramadan/vital-signs-patient-outcomes-analysis/blob/main/Vital_Sign_Analysis_Code%20(1).ipynb) 
 
 ## 3. Data Cleaning
 

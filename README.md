@@ -20,10 +20,10 @@ After data cleaning, 878 records were included in the analysis.
 
 ## 2. Project Files
 
-- [**View Full Project Report (PDF)**](Vital_Signs_Patient_Outcomes_Analysis_Report.pdf)
-- [**View Raw Dataset (Excel)**](Dirty_Vital_Signs_Analysis_Dataset.xlsx)
+- [**View Full Project Report (PDF)**](Vital_Signs_Analysis_Report.pdf)
+- [**View Dirty(Raw) Dataset (Excel)**](Dirty_Vital_Signs_Analysis_Dataset.xlsx)
 - [**View Cleaned Dataset (Excel)**](Cleaned_Vital_Signs_Analysis_Dataset.xlsx)
-- [**View Analysis Notebook (.ipynb)**](https://github.com/umar-ramadan/vital-signs-patient-outcomes-analysis/blob/main/Vital_Sign_Analysis_Code%20(1).ipynb) 
+- [**View Analysis Notebook (ipynb)**](Vital_Signs_Analysis_Code.ipynb)
 
 ## 3. Data Cleaning
 
@@ -54,8 +54,7 @@ I used:
 - Welch ANOVA and Kruskal–Wallis tests to check the consistency of the results.
 - Post-hoc tests to identify which outcome groups differed.
 - Effect sizes to measure the magnitude of differences.
-- Chi-square tests to examine associations between clinical vital-sign flags and outcomes.
-- Pearson and Spearman correlation and VIF to examine relationships between vital signs.
+- Pearson correlation and VIF to examine relationships between vital signs.
 
 ## 5. Machine Learning
 
@@ -102,7 +101,7 @@ The majority-class baseline achieved 48.3% accuracy.
 | Referred | 14.7% |
 | Died | 70.8% |
 
-The model struggled particularly to identify Referred patients (14.7% recall). This may partly reflect the overlap between Referred and Died patients in several vital signs: their systolic and diastolic blood pressure differences were not statistically significant in post-hoc comparisons. Although respiratory rate differed significantly between the two groups, the difference was relatively small (1.65 breaths/min).
+The model struggled particularly to identify Referred patients (14.7% recall). This may reflect the overlap between Referred and Died patients in several vital signs: their systolic and diastolic blood pressure differences were not statistically significant in post-hoc comparisons. Although respiratory rate differed significantly between the two groups, the difference was relatively small (1.65 breaths/min).
 
 ### Predictive Sufficiency
 
